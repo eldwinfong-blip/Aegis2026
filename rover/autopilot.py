@@ -197,8 +197,8 @@ class Autopilot:
             print(f"calling no_op with args {args}.")
             return  False
         
-        if name =="scan_enviroment":
-            print("Calling scan_enviroments().")
+        if name =="scan_environment":
+            print("Calling scan_environments().")
             return True
         
         if name != "move_rover":
